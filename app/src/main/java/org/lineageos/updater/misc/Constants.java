@@ -44,9 +44,9 @@ public final class Constants {
     public static final String PROP_BUILD_VERSION_INCREMENTAL = "ro.build.version.incremental";
     public static final String PROP_DEVICE = "ro.tesla-android.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
-    public static final String PROP_RELEASE_TYPE = "ro.tesla-android.releasetype";
-    public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "tesla-android.updater.allow_downgrading";
-    public static final String PROP_UPDATER_URI = "tesla-android.updater.uri";
+    public static final String PROP_RELEASE_TYPE = "persist.tesla-android.releasetype";
+    public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "persist.tesla-android.updater.allow_downgrading";
+    public static final String PROP_UPDATER_URI = "persist.tesla-android.updater.uri";
 
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
     public static final String PREF_INSTALL_NEW_TIMESTAMP = "install_new_timestamp";
